@@ -1,20 +1,32 @@
-# MAOU Bot
+# 🌐 MAOU Bot VPN 
 
-MAOU Bot adalah bot serba otomatis untuk membeli layanan VPN dengan mudah dan cepat. Nikmati kemudahan dan kecepatan dalam layanan VPN dengan bot kami!
+**⚡ Bot Otomatis Pembelian Layanan VPN - Cepat & Mudah!**  
+Nikmati pengalaman ber-VPN yang mulus dengan bot otomatis kami!
 
-## Fitur
+---
 
-- **Service Create**: Membuat akun VPN baru.
-- **Service Renew**: Memperbarui akun VPN yang sudah ada.
-- **Top Up Saldo**: Menambah saldo akun pengguna.
-- **Cek Saldo**: Memeriksa saldo akun pengguna.
+## 🚀 Fitur Unggulan
 
-## Teknologi yang Digunakan
+| Feature          | Emoji | Deskripsi                                  |
+|------------------|-------|--------------------------------------------|
+| Buat Akun Baru   | 🆕    | Membuat akun VPN baru secara instan        |
+| Perbarui Akun    | 🔄    | Memperpanjang masa aktif akun VPN          |
+| Top Up Saldo     | 💰    | Tambah saldo dengan mudah                  |
+| Cek Saldo        | 📊    | Pantau saldo akun Anda kapan saja          |
 
-- Node.js
-- SQLite3
-- Axios
-- Telegraf (untuk integrasi dengan Telegram Bot)
+---
+
+## 🛠️ Teknologi
+
+<div align="center">
+  
+![Node.js](https://img.shields.io/badge/Node.js-14%2B-green?logo=node.js)
+![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite)
+![Telegraf](https://img.shields.io/badge/Telegraf-Bot%20API-yellow?logo=telegram)
+![Axios](https://img.shields.io/badge/Axios-HTTP%20Client-purple)
+
+</div>
+
 
 ## Installasi Otomatis
 ```
@@ -44,19 +56,10 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
    node app.js
    ```
 
-## Struktur Proyek
+## Struktur
 
 - `app.js`: File utama yang mengatur bot dan server.
 - `modules/create.js`: Modul untuk membuat akun VPN baru.
 - `modules/renew.js`: Modul untuk memperbarui akun VPN yang sudah ada.
 - `sellvpn.db`: Database SQLite yang menyimpan data pengguna dan server.
-
-## Kontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan buat pull request dengan perubahan yang Anda usulkan.
-
-## Kontak
-
 Jika Anda memiliki pertanyaan atau masalah, silakan hubungi kami di [Telegram](https://t.me/maourafa).
-
-✨ Selamat menggunakan layanan kami! ✨
