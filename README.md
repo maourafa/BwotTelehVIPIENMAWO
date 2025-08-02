@@ -37,7 +37,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/FighterTunnel/BotVPN.git
+   git clone https://github.com/maourafa/BwotTelehVIPIENMAWO/
    ```
 2. Masuk ke direktori proyek:
    ```bash
